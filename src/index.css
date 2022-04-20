@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-slider {
+    width: 80rem;
+    height: 10rem;
+    margin-top: 2rem;
+}

@@ -1,24 +1,35 @@
-import React from 'react'
+import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import HeroSlideImage from "./HeroSlideImage";
+import firstImage from '../assets/FIFA22.png'
+import secondImage from '../assets/bird.png'
+import thirdImage from '../assets/gow big.png'
 
-function MainSlider () {
+function MainSlider() {
     const settings = {
-        dots: true,
+        className: "center",
+        centerMode: true,
         infinite: true,
-        speed: 500,
+        centerPadding: "60px",
         slidesToShow: 1,
-        slidesToScroll: 1
-      };
-  return (
-    <div className='relative top-40 right-0'>
-        <Slider {...settings}>
-          <div className='bg-white w-20 h-20'>
-            <h3>1</h3>
-          </div>
-          
-        </Slider>
+        speed: 500,
+        dots: true
+    };
+    return (
+        <div className="w-90 h-screen top-40 right-0">
+            <Slider {...settings}>
+                <HeroSlideImage image={firstImage} />
+                <HeroSlideImage image={secondImage} />
+                <HeroSlideImage image={thirdImage} />
+                <HeroSlideImage image={secondImage} />
+                <HeroSlideImage image={thirdImage} />
+                <HeroSlideImage image={secondImage} />
+                <HeroSlideImage image={thirdImage} />
+            </Slider>
         </div>
-  )
+    );
 }
 
 export default MainSlider;
