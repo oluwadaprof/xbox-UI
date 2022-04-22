@@ -20,14 +20,11 @@
     margin-left: -.2rem;
 }
 
-
-/* 
-li.slick-active button::before {
-    margin-top: -20rem;
-    background-color: #e9dbdb;
+button::before {
     z-index: 4;
     color: white;
-} */
+    text-decoration-color: red;
+}
 
 .button__bar :global(li.slick-active) button {
     opacity: .75;
