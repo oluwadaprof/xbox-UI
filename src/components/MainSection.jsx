@@ -1,10 +1,19 @@
 import React from "react";
 import MainSlider from "./MainSlider";
+import Button from "./Button";
+
 
 function MainSection() {
     return (
-        <div className="absolute left-40 top-20 h-90 w-40 ">
+        <div className="absolute overflow-scroll left-40 top-20 h-screen w-screen ">
             <MainSlider />
+           <div className="mt-56 w-96  ">
+           <Button  />
+           </div>
+          
+           
+           
+            
         </div>
     );
 }

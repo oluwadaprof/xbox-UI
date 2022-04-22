@@ -6,3 +6,88 @@
     height: 10rem;
     margin-top: 2rem;
 }
+
+
+/* .slick-list {
+    position: relative;
+    left: 4.5em;
+    width: 80em;
+} */
+
+.center {
+    width: 82rem;
+    height: 50rem;
+    margin-left: -.2rem;
+}
+
+
+/* 
+li.slick-active button::before {
+    margin-top: -20rem;
+    background-color: #e9dbdb;
+    z-index: 4;
+    color: white;
+} */
+
+.button__bar :global(li.slick-active) button {
+    opacity: .75;
+    color: white;
+}
+
+
+/* .slick-dots {
+    color: white;
+} */
+
+li button::before {
+    margin-top: -24rem;
+    margin-left: -2rem;
+    transform: scale(1.9);
+    color: white;
+}
+
+.right-icon {
+    position: absolute;
+    top: 24.5rem;
+    left: 47rem;
+    transform: scale(0.3);
+}
+
+.left-icon {
+    position: absolute;
+    top: 24.5rem;
+    left: 28rem;
+    transform: scale(0.3);
+}
+
+
+/* .slick-active {
+    padding: 20px 0;
+    transform: scale(1.08);
+} */
+
+
+/* .slick-active {
+    transform: scale(.8);
+} */
+
+
+/* .slick-center {
+    margin-left: 40rem;
+    position: relative;
+    left: -25rem;
+}
+
+.slick-slide:not(.slick-active) {
+    margin: 20px 0;
+}
+
+.child {
+    width: 100%;
+} */
+
+
+/* .slide:not(.slick-active) {
+    cursor: pointer;
+    opacity: 90;
+} */
