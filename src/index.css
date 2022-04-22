@@ -68,12 +68,18 @@ li button::before {
     transform: scale(.8);
 } */
 
+.slick-slide {
+    margin: 10px 0;
+    width: 160rem;
+}
+
 
 /* .slick-center {
     margin-left: 40rem;
     position: relative;
     left: -25rem;
 }
+
 
 .slick-slide:not(.slick-active) {
     margin: 20px 0;
