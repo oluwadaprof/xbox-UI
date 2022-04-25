@@ -16,8 +16,8 @@ function TopNav(nameList) {
         <div className="mt-3.5 ml-9 flex gap-10">
           <IoIosArrowBack className="ml-4 mt-2 scale-[2] text-gray-400" />
           <div className="flex ml-10 gap-5"> 
-            <p className={isActive === "store"?"text-white cursor-pointer":"text-gray-500 cursor-pointer"} onClick={() => setActive("store")}>STORE</p>
-            <p className={isActive === "social"?"text-white cursor-pointer":"text-gray-500 cursor-pointer"} onClick={() => setActive("social")}>SOCIAL</p>
+            <p className={isActive === "store"?"text-white font-home-font cursor-pointer":"text-gray-500 font-home-font cursor-pointer"} onClick={() => setActive("store")}>STORE</p>
+            <p className={isActive === "social"?"text-white font-home-font cursor-pointer":"text-gray-500 font-home-font cursor-pointer"} onClick={() => setActive("social")}>SOCIAL</p>
           </div>
         </div>
 
@@ -28,8 +28,9 @@ function TopNav(nameList) {
             className="absolute top-3 right-0 item-right focus:outline-none placeholder:text-[#979797]  placeholder:scale-[.8] pl-4 rounded-full  w-78 h-7 bg-[#222222]"
           />
         </div>
-
+        <p className="animate-ping overflow-hidden  text-xs bg-red-700 w-3 h-3 absolute z-10 left-[84.3rem] top-[1rem] rounded-full text-white "></p>
         <div className="absolute top-4 right-40  scale-[1.4] flex  gap-4">
+         
           <BiBell className="cursor-pointer mt-1 text-white" />
           <div className="cursor-pointer rounded-[50%] bg-[#252525]  h-5 w-5">
             <img className="mt-1 rounded-[50%]" src={greenFeild} alt="" />

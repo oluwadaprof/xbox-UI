@@ -9,6 +9,10 @@ module.exports = {
             },
             width: {
                 '128': '2rem',
+            },
+            fontFamily: {
+                'home-font': "Play",
+                'water-brush': "Water Brush"
             }
         },
     },

@@ -41,7 +41,7 @@ function TrendingContainer() {
     return (
         <div className=' absolute left-[1rem]  top-[40rem]'>
             <div className='inline-flex gap-x-[70rem]'>
-                <p className='text-white'>Trending</p>
+                <p className='text-white font-home-font'>Trending</p>
                 {/* <img src={RightIcon} className="scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" /> */}
             </div>
 

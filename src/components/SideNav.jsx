@@ -4,8 +4,20 @@ import { MdOutlineLibraryAdd } from "react-icons/md";
 import azicon from "../assets/Vector 2.png";
 import blackjack from "../assets/istockphoto-1320296956-612x612.png";
 import arrowIcon from "../assets/arrow.png";
+import { useWindowPosition } from "./MainSection";
+
+
+
+
 
 function SideNav() {
+    const scrollPosition = useWindowPosition();
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+};
   return (
     <div className="bg-[#070707]   h-screen w-20">
       <div className="flex flex-col gap-x-20 h-40  w-20">
@@ -32,12 +44,12 @@ function SideNav() {
             className="cursor-pointer mt-3 rounded-[50%]"
           />
         </div>
-        <div className="absolute bg-[#252525] left-4 bottom-9 cursor-pointer rounded-[50%] w-12 h-12">
-          <img
+        <div className="absolute animate-bounce  bg-[#252525] left-4 bottom-9 cursor-pointer rounded-[50%] w-12 h-12">
+         <img
             src={arrowIcon}
             alt="jack-icon"
-            className=" mt-3.5 ml-3 scale-[.9]"
-          />
+            className="mt-3.5 ml-3 -rotate-90 scale-[.9]"
+          /> 
         </div>
       </div>
     </div>

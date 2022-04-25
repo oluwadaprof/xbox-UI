@@ -1,6 +1,6 @@
 import React from 'react'
 import AuthorsCard from './AuthorsCard';
-import Tobi from '../assets/tobi.jpeg';
+import Tobi from '../assets/tobi-removebg-preview.png';
 import yourDesigner from '../assets/yourdesigner.jpeg';
 
 function Footer() {
@@ -9,9 +9,8 @@ function Footer() {
             <p>Author</p>
             <div className='ml-[-4rem] mt-[2rem] inline-flex'>
                 <AuthorsCard image={Tobi} role="Frontend Web Developer" color={`$[blue]`} name="ADEEKO TOBILOBA ISREAL" />
-                <AuthorsCard image={yourDesigner} role="UI/UX Designer" name="ADEEKO TOBILOBA ISREAL" />
+                <AuthorsCard image={yourDesigner} role="UI/UX Designer" name="DAVIO WHITE I." />
             </div>
-
         </div>
     )
 }
