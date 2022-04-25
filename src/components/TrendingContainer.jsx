@@ -28,14 +28,14 @@ function TrendingContainer() {
         const { className, onClick } = props;
         return (
             // <img className="right-icon" src={RightIcon} alt="right-icon" onClick={() => onClick()} />
-            <img src={RightIcon} className="absolute top-[-2.7rem] left-[70rem] scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" onClick={() => onClick()} />
+            <img src={RightIcon} className="absolute top-[-2.9rem] left-[70rem] scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" onClick={() => onClick()} />
         );
     }    
     function SampleNextArrow(props) {
         const { className, onClick } = props;
         return (
             // <img className="right-icon" src={RightIcon} alt="right-icon" onClick={() => onClick()} />
-            <img src={RightIcon} className="absolute top-[-2.7rem] left-[70rem] scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" onClick={() => onClick()} />
+            <img src={RightIcon} className="absolute top-[-2.9rem] left-[70rem] scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" onClick={() => onClick()} />
         );
     }
     return (
@@ -50,7 +50,7 @@ function TrendingContainer() {
                     <TrendingCard image={Scorpion} data='Free+' />
                     <TrendingCard image={ForzaHorizon} data='installed' />
                     <TrendingCard image={Psyconauts} data='Free+' />
-                    <TrendingCard image={Gears} data='Free+' />
+                    <TrendingCard image={Gta} data='Free+' />
                     <TrendingCard image={Gta} data='installed' />
                     <TrendingCard image={Scorpion} data='Free+' />
                     <TrendingCard image={Scorpion} data='Free+' />
