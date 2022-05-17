@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ForzaHorizon from '../assets/forzahorizon.png'
 import Psyconauts from '../assets/Psychonauts_2_cover.png'
-import Gears from '../assets/Gears_of_War_2_Game_Cover.png'
+// import Gears from '../assets/Gears_of_War_2_Game_Cover.png'
 import Gta from '../assets/gta-online-the-contract-key-art.png'
 
 function TrendingContainer() {

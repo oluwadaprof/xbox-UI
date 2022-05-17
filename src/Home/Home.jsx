@@ -11,7 +11,6 @@ function Home() {
       <TopNav />
       <div >
         <MainSection />
-       
       </div>
 
     </div>

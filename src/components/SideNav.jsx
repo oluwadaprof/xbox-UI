@@ -1,11 +1,11 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, {  useState, useEffect } from "react";
 import xboxIcon from "../assets/Vector.png";
 import { MdOutlineLibraryAdd } from "react-icons/md";
 import azicon from "../assets/Vector 2.png";
 import blackjack from "../assets/istockphoto-1320296956-612x612.png";
 import arrowIcon from "../assets/arrow.png";
-import { useWindowPosition } from "./MainSection";
-import PaidGames from "./PaidGames";
+// import { useWindowPosition } from "./MainSection";
+// import PaidGames from "./PaidGames";
 
 
 
@@ -27,15 +27,15 @@ function SideNav() {
 
 
   // const scrollPosition = useWindowPosition();
-  const goToTop = () => {
-    window.scrollTo({
-      top: 50,
-      behavior: 'smooth',
+  // const goToTop = () => {
+  //   window.scrollTo({
+  //     top: 50,
+  //     behavior: 'smooth',
 
-    });
-  };
+  //   });
+  // };
   return (
-    <div className="bg-[#070707]   h-screen w-20">
+    <div className="bg-[#070707]   h-screen w-20 ">
       <div className="flex flex-col gap-x-20 h-40  w-20">
         <img
           src={xboxIcon}
