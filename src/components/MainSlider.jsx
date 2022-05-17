@@ -1,13 +1,13 @@
-import React, {useRef} from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LeftIcon from "../assets/Right.png";
 import RightIcon from "../assets/left.png";
 import HeroSlideImage from "./HeroSlideImage";
-import firstImage from '../assets/FIFA22.png'
+// import firstImage from '../assets/FIFA22.png'
 import secondImage from '../assets/bird.png'
-import thirdImage from '../assets/Hnet.com-image3.png'
+// import thirdImage from '../assets/Hnet.com-image3.png'
 
 function MainSlider() {
 //     const slider = useRef();
@@ -30,16 +30,16 @@ function MainSlider() {
     };
   
     function SampleNextArrow(props) {
-        const { className, onClick } = props;
+        // const { className, onClick } = props;
         return (
-            <img className="right-icon" src={RightIcon} alt="right-icon" onClick={() => onClick()} />
+            <img className="right-icon" src={RightIcon} alt="right-icon"  />
         );
     }
 
     function SamplePrevArrow(props) {
-        const { className, onClick } = props;
+        // const { className, onClick } = props;
         return (
-            <img className="left-icon" src={LeftIcon} alt="left-icon" onClick={() => onClick()} />
+            <img className="left-icon" src={LeftIcon} alt="left-icon"  />
         );
     }
     return (

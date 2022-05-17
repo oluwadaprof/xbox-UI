@@ -32,7 +32,7 @@ function TrendingContainer() {
         );
     }    
     function SampleNextArrow(props) {
-        const { className, onClick } = props;
+        const {  onClick } = props;
         return (
             // <img className="right-icon" src={RightIcon} alt="right-icon" onClick={() => onClick()} />
             <img src={RightIcon} className="absolute top-[-2.9rem] left-[70rem] scale-[10px] h-[1.2rem] w-[.7rem] " alt="right-icon" onClick={() => onClick()} />

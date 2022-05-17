@@ -2,7 +2,7 @@ import React from "react";
 import MainSection from "../components/MainSection";
 import SideNav from "../components/SideNav";
 import TopNav from "../components/TopNav";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 
 function Home() {
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react'
+import React  from 'react'
 import TrendingCard from './TrendingCard';
 import Scorpion from "../assets/scorpion.png"
 

@@ -1,4 +1,4 @@
-import React, {  useState, useEffect } from "react";
+import React from "react";
 import xboxIcon from "../assets/Vector.png";
 import { MdOutlineLibraryAdd } from "react-icons/md";
 import azicon from "../assets/Vector 2.png";
@@ -13,16 +13,16 @@ import arrowIcon from "../assets/arrow.png";
 
 
 function SideNav() {
-  const [showTopBtn, setShowTopBtn] = useState(false);
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 400) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
-    });
-  }, []);
+  // const [showTopBtn, setShowTopBtn] = useState(false);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', () => {
+  //     if (window.scrollY > 400) {
+  //       setShowTopBtn(true);
+  //     } else {
+  //       setShowTopBtn(false);
+  //     }
+  //   });
+  // }, []);
 
 
 
@@ -69,7 +69,6 @@ function SideNav() {
             className="mt-3.5 ml-3 -rotate-90 scale-[.9]"
           />
         </div>
-
       </div>
     </div>
   );
